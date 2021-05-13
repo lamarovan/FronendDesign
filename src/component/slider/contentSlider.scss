@@ -1,0 +1,40 @@
+.carousel {
+  min-height: 300px;
+}
+.carousel-inner {
+  // height: 575px;
+  // min-height: 575px;
+}
+
+img {
+  flex: 1;
+  width: auto;
+}
+
+.carousel-caption {
+  flex: 1;
+}
+
+@media (min-width: 360px) {
+  .carousel {
+    min-height: 140px;
+    margin-bottom: 60px;
+  }
+  /* Since positioning the image, we need to help out the caption */
+  .carousel-caption {
+    z-index: 10;
+  }
+
+  /* Declare heights because of positioning of img element */
+  .carousel .item {
+    min-height: 140px;
+    background-color: #777;
+  }
+  .carousel-inner > .item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 140px;
+  }
+}

@@ -1,0 +1,28 @@
+.contact-form {
+  display: flex;
+  // justify-content: space-around;
+  background: rgb(88, 102, 92);
+  // align-items: center;
+
+  h3 {
+    margin-bottom: 20px;
+  }
+}
+
+Form {
+  margin: 30px;
+  width: 30%;
+  color: aliceblue;
+  // flex: 1;
+}
+
+.form-img {
+  // height: auto;
+  width: 55%;
+  background: url("https://preview.redd.it/oh95ijukz1y61.jpg?width=640&crop=smart&auto=webp&s=bf6d502845551e29a5384e67749eb30b0c52ec74");
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: auto;
+}

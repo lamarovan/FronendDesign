@@ -1,0 +1,39 @@
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+body {
+  background: rgb(243, 243, 243);
+}
+
+.navbar-nav {
+  float: right;
+}
+
+.carousel-inner {
+  min-height: 500px;
+}
+.carousel-caption {
+  position: absolute;
+  left: auto;
+  width: 50%;
+  height: 100%;
+  opacity: 0.8;
+  bottom: 0;
+  right: 0;
+  // padding-top: 10em;
+  // padding-bottom: 10rem;
+  background-color: #454749;
+  padding-top: 15%;
+  // transform: translateY(-50%);
+
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+  }
+}
+
+.card {
+  border: none;
+  border-radius: 0;
+}
